@@ -1,13 +1,17 @@
 /***** Global Selectors  ******/
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid 1px;
 }
 
 body {
     margin: 0;
+    height: auto;
+    margin: auto;
 }
-.header-container > * {
-    border-style: dashed;
+
+h1 {
+    font-size: 3em;
 }
 
 .header-container {
@@ -18,7 +22,7 @@ body {
     background-color: lightcoral;
 }
 
-.header-container h2 {
+.header-container h1 {
     padding: 0px 20px 0px 50px;
     background-color: purple;
     border-style: solid;
@@ -43,7 +47,7 @@ body {
     display: flex;
     border: solid;
     height: 200px;
-    background-image: url(./assets/bg-hero-banner-06.png);
+    background-image: url("/assets/bg-hero-banner-06.png");
     background-position: center;
     background-size: cover;
     justify-content: flex-end;
@@ -53,8 +57,52 @@ body {
 .hero-image h2 {
     border: solid white;
     color: white;
-    margin-right: 50px;
+    margin: 0px 50px 20px 0px;
     padding: 10px;
+}
+
+.main-container {
+  /* display: flex; */
+}
+
+.main-container h2 {
+    display: flex
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-container h2 {
+    flex-basis: 25%;
+}
+
+.about-me-container p {
+    flex-basis: 75%;
+}
+
+.contact-me-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container h2 {
+    flex-basis: 25%;
+    padding: 0px 20px 0px 50px;
+    background-color: purple;
+    border-style: solid;
+}
+
+.contact-me-container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 75%;
+    margin-top: px;
+}
+
+.contact-me-container ul li {
+    
 }
 /***** Element Selectors  ******/
 
