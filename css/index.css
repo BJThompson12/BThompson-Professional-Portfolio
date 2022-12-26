@@ -1,7 +1,12 @@
 /***** Global Selectors  ******/
+:root {
+    --primry-background-color: #ffffff;
+    --secondary-background-color: #0d1b2a;
+    --border-color: #3c6e71;
+    --font-color: #1b263b;
+}
 * {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: solid 1px;
 }
 
 body {
@@ -19,27 +24,29 @@ h1 {
     justify-content: space-between;
     align-items: center;
     border-style: solid;
-    background-color: lightcoral;
+    background-color: var(--secondary-background-color);
 }
 
 .header-container h1 {
-    padding: 0px 20px 0px 50px;
-    background-color: purple;
+    background-color: var(--border-color);
+    color: var(--secondary-background-color);
     border-style: solid;
+    padding: 10px 20px 10px 50px;
+    margin: 10px 0px 10px 0px;
 }
 
 #main-nav ul {
     display: flex;
+    color: var(--border-color);
     gap: 20px;
     margin-right: 50px;
     padding-left: 0px;
-    background-color: blue;
 }
 
 #main-nav ul li {
     list-style: none;
-    border-bottom: 5px solid red;
-    padding: 5px;
+    border-bottom: 5px solid var(--border-color);
+    padding: 10px;
     margin: 0px;
 }
 
@@ -55,14 +62,16 @@ h1 {
 }
 
 .hero-image h2 {
-    border: solid white;
-    color: white;
+    color: var(--secondary-background-color);
+    background-color: var(--border-color);
     margin: 0px 50px 20px 0px;
     padding: 10px;
 }
 
 .main-container {
-  /* display: flex; */
+  background-color: var(--primry-background-color);
+  color: var(--font-color);
+  
 }
 
 .main-container h2 {
@@ -89,20 +98,37 @@ h1 {
 .main-container h2 {
     flex-basis: 25%;
     padding: 0px 20px 0px 50px;
-    background-color: purple;
     border-style: solid;
+}
+
+.work-container {
+    display: flex;
+}
+
+.work-container h2 {
+    float: left;
+}
+
+.work-container div {
+    border: solid 5px var(--border-color);
 }
 
 .contact-me-container ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-basis: 75%;
-    margin-top: px;
+    flex-basis: 75%; 
 }
 
 .contact-me-container ul li {
-    
+    border-bottom: 5px solid var(--border-color);
+    padding: 10px;
+    margin: 0px;
+}
+
+.surf-report {
+    display: flex;
+
 }
 /***** Element Selectors  ******/
 
