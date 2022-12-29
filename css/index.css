@@ -1,6 +1,6 @@
 /***** Global Selectors  ******/
 :root {
-    --primry-background-color: #ffffff;
+    --primry-background-color: #F4F4F9;
     --secondary-background-color: #2F4550;
     --border-color: #b8dbd9;
     --font-color: #1b263b;
@@ -14,17 +14,22 @@ body {
     margin: 0;
     height: auto;
     margin: auto;
+    background-color: var(--primry-background-color);
 }
 
 h1 {
     font-size: 3em;
 }
 
+p {
+    line-height: 1.5;
+    color: var(--font-color);
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-style: solid;
     background-color: var(--secondary-background-color);
 }
 
@@ -36,21 +41,19 @@ h1 {
     margin: 10px 0px 10px 0px;
 }
 
-#main-nav ul {
+#main-nav {
     display: flex;
+    justify-content: space-around;
     color: var(--border-color);
     gap: 20px;
     margin-right: 50px;
-    padding-left: 0px;
+    padding: 0 10px 10px 10px;
 }
 
-#main-nav ul li {
-    list-style: none;
-    border-bottom: 5px solid var(--border-color);
-    padding: 10px;
-    margin: 0px;
+#main-nav a {
+    padding: 10px 20px;
+    border-bottom: 5px solid  var(--border-color);
 }
-
 .hero-image {
     display: flex;
     border: solid;
@@ -135,70 +138,49 @@ h1 {
     padding: 10px;
 }
 
-/* .flex-item > span {
-    display: inline-block;
-} */
-/* .main-container h2 {
-    display: flex
+#surf {
+    background-image: url(/assets/silver-surfer.png);
+    background-position: center;
+    background-size: cover;
 }
 
-.about-me-container {
+#led {
+    background-image: url(/assets/led-wall.png);
+    background-position: center;
+    background-size: cover;
+}
+#calculator {
+    background-image: url(/assets/javascript.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#mern {
+    background-image: url(/assets/mern.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#html {
+    background-image: url(/assets/css.png);
+    background-position: center;
+    background-size: cover;
+}
+
+address {
     display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    color: var(--font-color);
 }
 
-.about-me-container h2 {
-    flex-basis: 25%;
-}
-
-.about-me-container p {
-    flex-basis: 75%;
-}
-
-.contact-me-container {
+.address {
     display: flex;
-    justify-content: space-between;
-}
-
-.main-container h2 {
-    flex-basis: 25%;
-    padding: 0px 20px 0px 50px;
-    border-style: solid;
-}
-
-.work-container {
-    display: flex;
-}
-
-.work-container h2 {
-    float: left;
-}
-
-.work-container div {
-    border: solid 5px var(--border-color);
-} */
-/* 
-.contact-me-container ul {
-    display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-basis: 75%; 
 }
 
-.contact-me-container ul li {
-    border-bottom: 5px solid var(--border-color);
-    padding: 10px;
-    margin: 0px;
+address > * {
+    padding: 10px 20px;
+    border-bottom: 5px solid  var(--font-color);
 }
-
-.surf-report {
-    display: flex;
-
-} */
-/***** Element Selectors  ******/
-
-/***** Class Selectors  ******/
-
-
-/***** ID Selectors  ******/
-
-/***** Media Queries Selectors  ******/
