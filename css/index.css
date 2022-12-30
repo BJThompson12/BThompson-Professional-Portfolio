@@ -159,13 +159,13 @@ a:hover {
 }
 
 #surf {
-    background-image: url(/assets/silversurfer.jpg);
+    background-image: url(assets/silver-surfer.png);
     background-position: center;
     background-size: cover;
 }
 
 #led {
-    background-image: url(/assets/led-wall.png);
+    background-image: url(assets/led-wall.png);
     background-position: center;
     background-size: cover;
 }
