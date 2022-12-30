@@ -71,7 +71,7 @@ a:hover {
     display: flex;
     border: solid;
     height: 200px;
-    background-image: url("/assets/images/bg-hero-banner-06.png");
+    background-image: url("/assets/bg-hero-banner-06.png");
     background-position: center;
     background-size: cover;
     justify-content: flex-end;
@@ -159,30 +159,30 @@ a:hover {
 }
 
 #surf {
-    background-image: url(/assets/images/silver-surfer.png);
+    background-image: url(/assets/silver-surfer.png);
     background-position: center;
     background-size: cover;
 }
 
 #led {
-    background-image: url(/assets/images/led-wall.png);
+    background-image: url(/assets/led-wall.png);
     background-position: center;
     background-size: cover;
 }
 #calculator {
-    background-image: url(/assets/images/javascript.png);
+    background-image: url(/assets/javascript.png);
     background-position: center;
     background-size: cover;
 }
 
 #mern {
-    background-image: url(/assets/images/mern.png);
+    background-image: url(/assets/mern.png);
     background-position: center;
     background-size: cover;
 }
 
 #html {
-    background-image: url(/assets/images/css.png);
+    background-image: url(/assets/css.png);
     background-position: center;
     background-size: cover;
 }
