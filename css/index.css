@@ -137,13 +137,11 @@ a:hover {
     align-items: flex-end;
     flex: auto;
     margin: 5px;
-    /* margin: 0.2em; */
-    /* margin-top: 10px; */
     padding-bottom: 20px;
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
-    border: 5px solid var(--border-color);
+    border:5px solid var(--border-color);
     line-height: 1.5;
 }
 
