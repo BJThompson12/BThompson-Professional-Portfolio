@@ -26,6 +26,18 @@ p {
     color: var(--font-color);
 }
 
+a {
+    color: inherit;
+    font-style: normal;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: larger;
+}
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -43,6 +55,7 @@ p {
 
 #main-nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: var(--border-color);
     gap: 20px;
@@ -70,6 +83,13 @@ p {
     background-color: var(--border-color);
     margin: 0px 50px 20px 0px;
     padding: 10px;
+}
+.hero-image img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 130px;
+    bottom: 75px;
 }
 
 .main-container {
@@ -169,6 +189,7 @@ p {
 
 address {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
     color: var(--font-color);
