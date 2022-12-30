@@ -64,7 +64,7 @@ a:hover {
 }
 
 #main-nav a {
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-bottom: 5px solid  var(--border-color);
 }
 .hero-image {
@@ -88,7 +88,7 @@ a:hover {
     height: 100px;
     width: 100px;
     position: relative;
-    left: 130px;
+    left: 125px;
     bottom: 75px;
 }
 
@@ -119,7 +119,7 @@ a:hover {
 }
 
 .page-section > div {
-    flex: 0 0 77%;
+    flex: 0 0 75%;
 }
 
 .page-section > span {
@@ -135,8 +135,11 @@ a:hover {
 .flex-item {
     display: flex;
     align-items: flex-end;
-    margin: 0.5em;
-    padding: 0 0 20px 0;
+    flex: auto;
+    margin: 5px;
+    /* margin: 0.2em; */
+    /* margin-top: 10px; */
+    padding-bottom: 20px;
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
