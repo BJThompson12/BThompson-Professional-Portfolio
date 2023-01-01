@@ -213,6 +213,19 @@ address > * {
         display: flex;
         flex-direction: column;
     }
+    .header-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-container h1 {
+        padding: 10px 20px;
+    }
+
+    #main-nav {
+        margin-left: 50px;
+    }
 
     .hero-image {
         display: flex;
