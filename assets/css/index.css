@@ -74,21 +74,20 @@ a:hover {
     background-image: url("../images/bg-hero-banner-06.png");
     background-position: center;
     background-size: cover;
-    justify-content: flex-end;
     align-items: flex-end;
 }
 
 .hero-image h2 {
     color: var(--secondary-background-color);
     background-color: var(--border-color);
-    margin: 0px 50px 20px 0px;
+    margin: 0px 0px 10px 20px;
     padding: 10px;
 }
 .hero-image img {
     height: 100px;
     width: 100px;
     position: relative;
-    left: 125px;
+    right: 130px;
     bottom: 75px;
 }
 
@@ -205,4 +204,29 @@ address {
 address > * {
     padding: 10px 20px;
     border-bottom: 5px solid  var(--font-color);
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+    .header-container,
+    .page-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image {
+        display: flex;
+        justify-content: center;
+        padding-left: 75px;
+    
+    }
+
+    .page-section h2 {
+        display: flex;
+        justify-content: center;
+        border-bottom: solid 5px var(--font-color);
+        border-right: none;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+    }
 }
