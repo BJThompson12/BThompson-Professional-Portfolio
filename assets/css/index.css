@@ -229,8 +229,8 @@ address > * {
 
     .hero-image {
         display: flex;
-        justify-content: center;
-        padding-left: 75px;
+        justify-content:center;
+        padding-left: 50px;
     }
 
     .page-section h2 {
