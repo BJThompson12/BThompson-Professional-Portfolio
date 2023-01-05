@@ -1,13 +1,14 @@
 /***** Global Selectors  ******/
 :root {
-    --primry-background-color: #F4F4F9;
-    --secondary-background-color: #2F4550;
+    --primry-background-color: #f4f4f9;
+    --secondary-background-color: #2f4550;
     --border-color: #b8dbd9;
     --font-color: #1b263b;
 }
 
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -30,12 +31,15 @@ a {
     color: inherit;
     font-style: normal;
     box-shadow: inset 0 0 0 0 var(--font-color);
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    margin: 0 -0.25rem;
+    padding: 0 0.25rem;
+    transition: color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
 }
 
-a:hover, a:visited, a:link, a:active {
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
 }
 
@@ -71,13 +75,14 @@ address a:hover {
 
 #main-nav a {
     padding: 10px 10px;
-    border-bottom: 5px solid  var(--border-color);
+    border-bottom: 5px solid var(--border-color);
 }
+
 .hero-image {
     display: flex;
     border: solid;
     height: 200px;
-    background-image: url("../images/bg-hero-banner-06.png");
+    background-image: url('../images/bg-hero-banner-06.png');
     background-position: center;
     background-size: cover;
     align-items: flex-end;
@@ -89,6 +94,7 @@ address a:hover {
     margin: 0px 0px 10px 20px;
     padding: 10px;
 }
+
 .hero-image img {
     height: 100px;
     width: 100px;
@@ -114,7 +120,7 @@ address a:hover {
     padding: 10px 0px;
 }
 
-.page-section > h2 {
+.page-section>h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -123,11 +129,11 @@ address a:hover {
     border-right: 5px solid var(--font-color);
 }
 
-.page-section > div {
+.page-section>div {
     flex: 0 0 75%;
 }
 
-.page-section > span {
+.page-section>span {
     margin-bottom: 20px;
 }
 
@@ -146,11 +152,11 @@ address a:hover {
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
-    border:5px solid var(--border-color);
+    border: 5px solid var(--border-color);
     line-height: 1.5;
 }
 
-.flex-item > div h3 {
+.flex-item>div h3 {
     font-size: 1.5vw;
 }
 
@@ -159,7 +165,7 @@ address a:hover {
     flex-basis: 100%;
 }
 
-.flex-item > * {
+.flex-item>* {
     background-color: var(--border-color);
     padding: 10px;
 }
@@ -175,6 +181,7 @@ address a:hover {
     background-position: center;
     background-size: cover;
 }
+
 #calculator {
     background-image: url(../images/javascript.png);
     background-position: center;
@@ -207,9 +214,9 @@ address {
     align-items: center;
 }
 
-address > * {
+address>* {
     padding: 10px 20px;
-    border-bottom: 5px solid  var(--font-color);
+    border-bottom: 5px solid var(--font-color);
 }
 
 footer {
@@ -217,9 +224,11 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 .footer-container {
     padding-bottom: 20px;
 }
+
 .back-to-top-button {
     width: 200px;
     height: 50px;
@@ -233,12 +242,22 @@ footer {
     z-index: 0;
     border-radius: 10px;
 }
+
 .back-to-top-button:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg,
+            #ff0000,
+            #ff7300,
+            #fffb00,
+            #48ff00,
+            #00ffd5,
+            #002bff,
+            #7a00ff,
+            #ff00c8,
+            #ff0000);
     position: absolute;
     top: -2px;
-    left:-2px;
+    left: -2px;
     background-size: 400%;
     z-index: -1;
     filter: blur(5px);
@@ -246,7 +265,7 @@ footer {
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
     opacity: 0;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
 }
 
@@ -264,23 +283,35 @@ footer {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: var(--font-color);;
+    background: var(--font-color);
     left: 0;
     top: 0;
     border-radius: 10px;
 }
+
 @keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
 }
+
 /* Media Queries */
 @media (max-width: 700px) {
+
     .header-container,
     .page-section {
         display: flex;
         flex-direction: column;
     }
+
     .header-container {
         display: flex;
         justify-content: center;
@@ -297,7 +328,7 @@ footer {
 
     .hero-image {
         display: flex;
-        justify-content:center;
+        justify-content: center;
         padding-left: 50px;
     }
 
