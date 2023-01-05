@@ -3,6 +3,8 @@ Repo contains my Professional Portfolio
 
 ## Description
 
+MY profesional portfolio will be a contantly growing webpage to house my contant growth in my development career. The showcasing of my skillset will provide a menas for employers to verify my qualifications in order to meet their hiring needs. Contact informaiton will remain relevant and up to date for employers to be able to solict my services. 
+
 ## Installation
 
 N/A
@@ -13,6 +15,7 @@ N/A
 
 ## Usage
 
+Brandon Thompson's professional portfilio is to be used as a great way to convey his skillsets and insight to potential employers on how he approachs programming tasks.
 
 ## Screenshot
 
