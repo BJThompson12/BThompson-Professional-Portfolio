@@ -48,6 +48,8 @@ address a:hover {
     color: white;
 }
 
+/* container for nav bar */
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -78,6 +80,8 @@ address a:hover {
     border-bottom: 5px solid var(--border-color);
 }
 
+/* hero container */
+
 .hero-image {
     display: flex;
     border: solid;
@@ -102,6 +106,8 @@ address a:hover {
     right: 130px;
     bottom: 75px;
 }
+
+/* body of the webpage */
 
 .main-container {
     background-color: var(--primry-background-color);
@@ -160,6 +166,8 @@ address a:hover {
     font-size: 1.5vw;
 }
 
+/* set top container larger then the rest */
+
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
@@ -199,6 +207,8 @@ address a:hover {
     background-position: center;
     background-size: cover;
 }
+
+/* contact me section */
 
 address {
     display: flex;
