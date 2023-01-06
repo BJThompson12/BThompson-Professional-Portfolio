@@ -229,7 +229,7 @@ address {
     align-items: center;
 }
 
-address>* {
+address > * {
     padding: 10px 20px;
     border-bottom: 5px solid var(--font-color);
 }
