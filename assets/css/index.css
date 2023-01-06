@@ -161,6 +161,11 @@ address a:hover {
     border: 5px solid var(--border-color);
     line-height: 1.5;
 }
+.flex-item:hover {
+    border: 3px solid #0a85d1;
+    color: #0a85d1;
+    background: #fff;
+  }
 
 .flex-item>div h3 {
     font-size: 1.5vw;
